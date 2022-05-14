@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Translate Animation
+        </title>
+        <style type="text/css">
+            div
+            { 
+                border-radius: 50%;
+                height:250px;
+                width: 250px;
+                transition:3s;
+                font-size:25px;
+                font-weight:bold;
+                color:white;
+                background-color:rgb(210, 84, 34);
+            }
+            
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(100px,100px);
+                   -moz-transform:translate(100px,100px);
+                    -ms-transform:translate(100px,100px);
+                     -o-transform:translate(100px,100px);
+                        transform:translate(100px,100px);
+                      background-color:rgb(3, 3, 56);
+                      color:rgb(163, 163, 13); 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:1;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(128,128,0,0.5);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:0px 0px 30px rgb(88, 88, 127);
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:3px 3px 3px rgb(110, 18, 155);
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:50%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body>
+        <center>        
+            <b><u>*Translate Animation*</u></b>
+            <div id="TranslateDiv">A</div><hr /><hr/><hr/>
+        </center>
+
+		
+    </body>
+</html>
